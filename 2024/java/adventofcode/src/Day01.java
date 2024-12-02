@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Day01 {
+public class Day01 implements ISolver {
 	private Map<Integer, ArrayList<Integer>> processInput() {
 		ArrayList<Integer> listA = new ArrayList<>();
 		ArrayList<Integer> listB = new ArrayList<>();
